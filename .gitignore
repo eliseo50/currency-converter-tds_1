@@ -1,0 +1,29 @@
+# Compiled output
+*.o
+*.out
+*.exe
+a.out
+currency_converter
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build directories
+build/
+bin/
+obj/
+
+# Debug files
+*.dSYM/
+
+# Dependency directories
+vendor/
+lib/
+
+# System files
+Thumbs.db
+.DS_Store
