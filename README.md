@@ -1,21 +1,29 @@
 # Conversor de Divisas
 
-Un programa simple en C que permite convertir entre diferentes monedas (USD, EUR y GTQ).
+Este es un programa en C que permite convertir valores monetarios entre diferentes divisas: Dólar Estadounidense (USD), Euro (EUR) y Quetzal Guatemalteco (GTQ). El programa proporciona una interfaz simple por consola para seleccionar la moneda de origen, la moneda de destino y el monto a convertir.
 
-## 🚀 Cómo Usar
+## Prerrequisitos
+- Compilador de C
+
+## 🚀 Pasos para la Ejecución
 
 1. Compile el programa usando un compilador de C:
-      gcc currency_converter.c -o currency_converter
-   
+   ```
+   gcc currency_converter.c -o currency_converter
+   ```
 
 2. Ejecute el programa:
-      ./currency_converter
-   
+   ```
+   ./currency_converter
+   ```
 
 3. Siga las instrucciones en pantalla:
    * Ingrese la cantidad que desea convertir
    * Seleccione la moneda de origen (1-3)
    * Seleccione la moneda de destino (1-3)
+   * Ver el resultado de la conversión
+
+## Funcionalidades
 
 ### Monedas Disponibles
 1. USD (Dólar Estadounidense)
@@ -33,6 +41,12 @@ El programa está organizado en varias funciones principales:
 - get_rate(): Determina la tasa de cambio entre monedas
 - print_result(): Muestra el resultado de la conversión
 
+### Validaciones
+
+- El programa verifica que el monto ingresado sea un número válido
+- La selección de moneda debe estar entre 1 y 3
+- Si se ingresa una opción inválida, el programa solicita nuevamente el dato
+
 ### Tasas de Cambio
 Las tasas de cambio están predefinidas en el código:
 
@@ -44,12 +58,6 @@ Las tasas de cambio están predefinidas en el código:
 | EUR | GTQ | 8.40    |
 | GTQ | USD | 0.13    |
 | GTQ | EUR | 0.12    |
-
-### Validaciones
-
-- El programa verifica que el monto ingresado sea un número válido
-- La selección de moneda debe estar entre 1 y 3
-- Si se ingresa una opción inválida, el programa solicita nuevamente el dato
 
 ### Constantes Definidas
 
