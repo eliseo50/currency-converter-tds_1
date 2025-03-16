@@ -66,3 +66,9 @@ Las tasas de cambio están predefinidas en el código:
 - GTQ: Identificador para quetzal guatemalteco (3)
 - MIN_CURRENCIES: Valor mínimo válido para selección de moneda
 - MAX_CURRENCIES: Valor máximo válido para selección de moneda
+
+## Datos del Autor
+
+**Nombre:** Guillermo Eliseo Gomez Reyes  
+**Correo:** eliseo.gomez@galileo.edu  
+**Carnet:** 18002971
